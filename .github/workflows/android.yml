@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Crear proyecto Android
-       run: |
+        run: |
           if [ ! -d android ]; then
             npx cap add android
           fi
