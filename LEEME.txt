@@ -1,0 +1,16 @@
+VERSIÓN CORREGIDA: UN SOLO BOTÓN COMBINADO
+
+La app no tiene pestañas ni secciones separadas. El botón "Nuevo ítem" elige al azar entre:
+- 27 letras del alfabeto español, incluida Ñ.
+- Números del 0 al 500 (501 números).
+
+No repite ningún resultado hasta completar los 528 posibles. Después comienza un nuevo ciclo.
+
+Para actualizar tu repositorio actual:
+1. En GitHub abre Code > www > index.html.
+2. Pulsa el lápiz (Edit) y reemplaza TODO el contenido por el contenido del archivo www/index.html de este paquete. Guarda con Commit changes.
+   Alternativamente, en Code > Add file > Upload files, puedes subir el index.html corregido a la carpeta www, confirmando que reemplace el archivo existente.
+3. Ve a Actions y ejecuta de nuevo Build Android APK.
+4. Cuando termine verde, descarga el artifact `letras-numeros-apk`, descomprímelo y busca `app-debug.apk`.
+
+Si el workflow de tu repositorio ya compila correctamente, no necesitas reemplazar el workflow ni el resto de archivos; basta con actualizar www/index.html y volver a compilar.
