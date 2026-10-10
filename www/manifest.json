@@ -1,0 +1,9 @@
+{
+  "name": "Letras y Números",
+  "short_name": "Letras y Números",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#edf5fb",
+  "theme_color": "#163b66"
+}
